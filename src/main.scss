@@ -81,8 +81,8 @@ a {
 .content-hd {
   width: 100%;
   padding: 30px 50px;
-  color: #fff;
-  background-color: $color-green;
+  color: #fff !important;;
+  background-color: $color-green !important;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 25px 30px;
@@ -173,7 +173,7 @@ a {
           display: inline-block;
         }
         & > a {
-          color: #fff;
+          color: #fff !important;
           @media print {
             color: #000;
           }
